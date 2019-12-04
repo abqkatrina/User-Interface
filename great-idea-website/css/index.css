@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,98 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here! ########################## */
+body {
+	background-color: white;
+	color: black;
+}
+
+.everything {
+	margin: 0% 15% 0% 15%;
+	width: auto;
+	align-content: center;
+}
+
+nav {
+	align-content: center;
+	vertical-align: middle;
+	position: fixed;
+	z-index: 5;
+	background-color: white;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	color: gray;
+	font-size: 12px;
+	padding: 20px;
+}
+
+.sectionOne {
+	display: inline-block;
+	margin-top: 75px;
+	width: auto;
+	height: 400px;
+	position: relative;
+}
+
+ .h1 {
+	 width: 200px;
+	 align-content: center;
+
+ }
+
+ h1 {
+	 color: black;
+ 	 font-size: 45px;
+ }
+
+ .h1 button {
+	 font-size: 14px;
+	 background-color: white;
+	 color: black;
+	 border-style: 1px groove;
+	 padding: 2px 30px;
+ }
+
+.oneImage {
+	width: 200px;
+	}
+
+.sectionTwo {
+	display: inline-block;
+	text-align: justify;
+	width: auto;
+	margin: 20px;
+}
+
+.twoType {
+	box-sizing: border-box;
+	margin: 10px;
+	width: 50%;
+}
+
+.middle-img {
+	width: inherit;
+	margin: auto;
+}
+
+.sectionThree {
+	margin: 10px;
+}
+.threeType {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 30%;
+}
+
+.contact {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+}
